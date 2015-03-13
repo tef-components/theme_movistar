@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           optimization: 2
         },
         files: {
-          'css/movistar.components.css': 'less/theme.less',
+          'css/components.movistar.css': 'less/theme.less',
           'css/components/buttons.css': 'less/buttons.less',
           'css/components/button-groups.css': 'less/button-groups.less',
           'css/components/dropdowns.css': 'less/dropdowns.less',
@@ -30,9 +30,9 @@ module.exports = function(grunt) {
       default: {
        src: [
           '../icons/icons.css',
-          'css/movistar.components.css',
+          'css/components.movistar.css',
         ],
-        dest: 'css/movistar.components.css'
+        dest: 'css/components.movistar.css'
       }
     },
 
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'css/movistar.components.min.css': 'css/movistar.components.css',
+          'css/components.movistar.min.css': 'css/components.movistar.css',
           'css/components/buttons.min.css': 'css/components/buttons.css',
           'css/components/button-groups.min.css': 'css/components/button-groups.css',
           'css/components/dropdowns.min.css': 'css/components/dropdowns.css',
