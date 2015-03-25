@@ -251,8 +251,3 @@ button::-moz-focus-inner {
   color: white;
   border-color: #6f9a2d;
 }
-.tef-button[disabled],
-.tef-button.disabled {
-  opacity: 0.4;
-  pointer-events: none;
-}
