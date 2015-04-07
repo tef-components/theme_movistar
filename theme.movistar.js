@@ -135,6 +135,9 @@ var setVars = function(){
   CoreStyle.g.significantBorderActive =
     "#0097a3";
 
+  CoreStyle.g.warning =
+    "#f0ad4e";
+
   CoreStyle.g.grey1 =
     "#f2f2f2";
 
