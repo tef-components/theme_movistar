@@ -38,7 +38,7 @@ module.exports = function(grunt) {
     concat: {
       default: {
        src: [
-          '../icons/icons.css',
+          '../icons/fonts/icons.css',
           'css/components.movistar.css',
         ],
         dest: 'css/components.movistar.css'
